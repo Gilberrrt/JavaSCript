@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sewa Mobil</title>
+    <link rel="stylesheet" href="./lat1.css">
+</head>
+<body>
+  <h1>Penyewaan Mobil ABC</h1>
+
+  <form id="rentalForm">
+    <div class="cars-container">
+      <!-- untuk tempat mobil dari js -->
+    </div>
+
+    <div class="customer-form">
+      <label for="nama">Nama Pelanggan:</label>
+      <input type="text" id="nama" required>
+
+      <button type="button" onclick="hitungTotal()">Hitung Total</button>
+      <button type="button" onclick="simpanPemesanan()">Simpan Pemesanan</button>
+    </div>
+  </form>
+
+  <div id="ringkasan"></div>
+
+  <h2>Daftar Pemesanan</h2>
+  <ul id="daftarPemesanan"></ul>
+
+    <script src="./lat1.js"></script>
+</body>
+</html>

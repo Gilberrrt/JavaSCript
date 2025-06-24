@@ -1,0 +1,54 @@
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  background: #f9f9f9;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.cars-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+}
+
+.car-card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 250px;
+  padding: 10px;
+  background: white;
+}
+
+.car-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.customer-form {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.customer-form input {
+  padding: 8px;
+  width: 250px;
+  margin: 5px;
+}
+
+button {
+  margin: 5px;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+#ringkasan {
+  background: #fff;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 8px;
+}
